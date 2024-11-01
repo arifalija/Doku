@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meine persönliche HTML-Webseite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .sidebar {
+      width: 300px;
+      background-color: #f1f1f1;
+      padding: 20px;
+      margin-right: 20px;
+      float: left;
+    }
+
+    .main {
+      flex: 1;
+    }
+
+    .nav-links {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .nav-links li {
+      margin-bottom: 10px;
+    }
+
+    .nav-links a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .content {
+      padding: 20px;
+      background-color: #fff;
+      min-height: 842px; /* entspricht einer A4-Seite */
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h1>Meine Interessen</h1>
+      <ul class="nav-links">
+        <li><a href="#neymar">Neymar</a></li>
+        <li><a href="#titanic">Titanic</a></li>
+        <li><a href="#pinguine">Pinguine</a></li>
+        <li><a href="#technologie">Technologie</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="content" id="neymar">
+        <h1>Neymar</h1>
+
+        <div class="row">
+          <div class="column left">
+            <p>Neymar da Silva Santos Júnior, bekannt als Neymar, ist ein brasilianischer Fußballspieler, der als Stürmer für den französischen Verein Paris Saint-Germain und die brasilianische Nationalmannschaft spielt.</p>
+
+            <p>Neymar gilt weithin als einer der besten Spieler der Welt und wurde mit zahlreichen individuellen Auszeichnungen geehrt, darunter fünf Mal zum FIFA FIFPro World11 ernannt und dreimal zum UEFA-Spieler des Jahres. Er ist auch der dritthöchste Torschütze in der Geschichte der brasilianischen Nationalmannschaft.</p>
+
+            <p>Neymar ist bekannt für seine Dribbling-Fähigkeiten, seine Torgefährlichkeit und seine kreativen Spielzüge. Er ist auch ein sehr umstrittener Spieler, der für sein auffälliges Verhalten auf und neben dem Spielfeld kritisiert wurde.</p>
+
+            <h2>Erfolge</h2>
+
+            <ul>
+              <li>UEFA Champions League: 2014/15</li>
+              <li>Ligue 1: 2017/18, 2018/19, 2019/20</li>
+              <li>Copa América: 2019</li>
+              <li>FIFA Konföderationen-Pokal: 2013</li>
+              <li>FIFA Klub-Weltmeisterschaft: 2015</li>
+              <li>UEFA-Superpokal: 2015</li>
+              <li>Coupe de France: 2017/18, 2019/20</li>
+              <li>Coupe de la Ligue: 2017/18, 2019/20</li>
+            </ul>
+          </div>
+          <div class="column right">
+            <img src="neymar.jpg" alt="Neymar">
+          </div>
+        </div>
+      </div>
+      <div class="content" id="titanic">
+        <h1>Titanic</h1>
+
+        <div class="row">
+          <div class="column left">
+            <p>Die Titanic war ein britisches Passagierschiff, das am 15. April 1912 auf seiner Jungfernfahrt von Southampton nach New York City im Nordatlantik mit einem Eisberg kollidierte und sank.</p>
+
+            <p>Die Titanic war zum Zeitpunkt ihres Baus das größte Schiff der Welt. Sie wurde als "unsinkbar" angepriesen, aber diese Behauptung erwies sich als tragisch falsch.</p>
+
+            <p>Beim Untergang der Titanic kamen über 1.500 Menschen ums Leben, was sie zu einer der tödlichsten maritimen Katastrophen in der Geschichte macht.</p>
+
+            <h2>Ursachen des Untergangs</h2>
+
+            <p>Es gibt viele Faktoren, die zum Untergang der Titanic beigetragen haben, darunter:</p>
+
+            <ul>
+              <li>Die Kollision mit dem Eisberg</li>
+              <li>Die unzureichende Anzahl von Rettungsbooten</li>
+              <li>Das Fehlen von Funkgeräten auf allen Rettungsbooten</li>
+              <li>Die mangelnde Erfahrung der Besatzung im Umgang mit Notfällen</li>
+            </ul>
+          </div>
+          <div class="column right">
+            <img src="titanic.jpg" alt="Titanic">
+          </div>
+        </div>
+      </div>
+      <div class="content" id="pinguine">
+        <h1>Pinguine</h1>
+
+        <div class="row">
+          <div class="column left">
+            <p>Pinguine sind eine Gruppe von flugunfähigen Seevögeln, die in der südlichen Hemisphäre leben.</p>
+
+            <p>Es gibt 18 Pinguinarten, die in Größe und Aussehen variieren.</p>
+
+            <p>Pinguine sind hochgradig soziale Tiere und leben in großen Kolonien.</p>
+
+            <p>Pinguine sind ausgezeichnete Schwimmer und Taucher.</p>
+          </div>
+          <div class="column right">
+            <img src="pinguine.jpg" alt="Pinguine">
+          </div>
+        </div>
+      </div>
+      <div class="content" id="technologie">
+        <h1>Technologie</h1>
+
+        <div class="row">
+          <div class="column left">
+            <p>Technologie ist die Anwendung von wissenschaftlichen Kenntnissen zur praktischen Problemlösung.</p>
+
+            <p>Technologie hat unser Leben in vielerlei Hinsicht verbessert, darunter:</p>
+
+            <ul>
+              <li>Kommunikation</li>
+              <li>Transport</li>
+              <li>Gesundheitswesen</li>
+              <li>Bildung</li>
+              <li>Energie</li>
+            </ul>
+
+            <p>Technologie entwickelt sich ständig weiter und es ist spannend zu sehen, was die Zukunft bringt.</p>
+          </div>
+          <div class="column right">
+            <img src="technologie.jpg" alt="Technologie">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
